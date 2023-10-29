@@ -14,6 +14,14 @@ module.exports = {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.imooc$/,
+        use: [
+          {
+            loader: path.resolve(__dirname, "./loader/imooc-loader.js"),
+          },
+        ],
+      },
     ],
   },
 };
