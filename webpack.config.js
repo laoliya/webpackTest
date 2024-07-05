@@ -1,5 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
+const FooterPlugin = require('./plugin/FooterPlugin')
 
 module.exports = {
   mode: "development",
@@ -28,6 +29,9 @@ module.exports = {
   plugins: [
     new webpack.BannerPlugin({
       banner: "测试提示banner"
+    }),
+    new FooterPlugin({
+       footer: "测试提示footer"
     })
   ]
 };

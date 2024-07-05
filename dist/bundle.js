@@ -583,4 +583,5 @@ console.log('hello webpack',_test_imooc__WEBPACK_IMPORTED_MODULE_1__["default"])
 
 /******/ })()
 ;
+/* 测试提示footer */
 //# sourceMappingURL=bundle.js.map
