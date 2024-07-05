@@ -1,3 +1,4 @@
+/*! 测试提示banner */
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -574,9 +575,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
 /* harmony import */ var _test_imooc__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./test.imooc */ "./src/test.imooc");
 
+// import 'style-loader!css-loader!./index.css'   //内联调用webpack loader, 无需配置rules
 
 
-console.log('hello webpack')
+console.log('hello webpack',_test_imooc__WEBPACK_IMPORTED_MODULE_1__["default"])
 })();
 
 /******/ })()
